@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif
+}
+:root{
+    --bg-color: rgb(19, 15, 15) ;
+    --second-bg-color : rgb(32, 26, 26) ;
+    --text-color: white ;
+    --main-color : hsl(176, 84%, 42%) ;
+}
+body{
+    background-color: rgb(24, 20, 20);
+}
+.profile{
+    border-radius: 50%;
+    height:200px;
+    height: 300px;
+    width: 250px;
+    border: 3px solid #00fff0;
+    box-shadow: 0 0 20px #00fff0;
+    display: flex;
+    margin-left: 35%;
+    margin-left: 40%;
+}
+.profile:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 55px var(--main-color);
+    transform: translateY(-10px) scale(1.03);
+    border: 4.5px solid  #00fff0;
+}
+h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    line-height: 1;
+    color: whitesmoke;
+}
+span{
+    color: #00fff0;
+}
+h3{
+    margin-top:10px;
+    font-size: 30px;
+    color: whitesmoke;
+}
+.about{
+    padding-top: 15px;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.8;
+    margin-top:10px;
+}
+.Accounts a{
+    display: inline-flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #00fff0;
+    font-size: 25px;
+    color: #00fff0;
+    margin: 15px 15px 30px  0;
+}
+.button1{
+    border: #00ffee;
+    border-radius: 20px;
+    width: 80px;
+    height: 50px;
+    border: 2px solid #00fff0;
+    background-color: rgb(19, 15, 15);
+    color: whitesmoke;
+}
+#button1:hover{
+    background-color:#00fff0 ;
+    box-shadow: 0 0 10px #00fff0;
+    border: 2px solid  #10baaf;
+    color: black;
+}
+.button2{
+    border: #00ffee;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #00fff0;
+    background-color: rgb(19, 15, 15);
+    color: whitesmoke;
+}
+#button2:hover{
+    background-color:#00fff0 ;
+    box-shadow: 0 0 10px #00fff0;
+    border: 2px solid  #10baaf;
+    color: black;
+}
+.education{
+    padding: 50px 15px;
+    background-color: black;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 950px;
+}
+.heading{
+    font-size:70px;
+    color:whitesmoke;
+    margin:20px 20px;
+}
+.year{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: black; 
+}
+.year{
+ margin-bottom: 40px;
+ width: 100%;
+ position: relative;
+}
+ .year-dot{
+    display: none;
+} 
+.year-date{
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    margin: 6px 0 15px;
+}
+.year-content{
+    background-color:black;
+    border:3px solid #00fff0;
+    box-shadow: 0 0 10px var(--main-color);
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.3s ease-in-out; 
+    padding: 30px 50px;
+    padding-top: 15px;
+    margin-top:10px; 
+    margin-left: 0px; 
+    margin-bottom: 4px;
+    border-radius: 65px; 
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.8;
+    width: 100%;
+}
+.year-content:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 25px var(--main-color);
+}
+.year-content h3{
+    color: white;
+    font-size: 20px;
+    margin: 0 0 10px;
+    font-weight: 500;
+}
+.year-content p{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.experience{
+    background : var(--bg-color);
+    color: black;
+    text-align:left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: -25px;
+    height: 480px;
+    position: relative;
+}
+.experience h2{
+    color:whitesmoke;
+    padding-top: 50px;
+}
+#experience{
+    color: whitesmoke;
+}
+.web-developer{
+    height: 280px; 
+    width: 500px;
+    border-radius: 65px;
+    border-radius: 40px;
+    background-color:#00fff0;
+    box-shadow: 0 0 10px var(--main-color);
+    margin-top: 30px;
+    left: px;  
+    border: 5px solid transparent;
+    border:3px solid  #20faec;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    position: relative;  
+    width: 100%;
+}
+.web-developer:hover{
+    background-color: white;
+    border: 5px solid #00fff0;
+    transform: scale(1.03);
+    box-shadow: 0 0 20px #00fff0;
+    color: whitesmoke;
+}
+.web-developer.internship-info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-height: 20px;
+    justify-content: left;
+    align-items: baseline;
+    padding: 5rem 5rem;
+}
+.internship-info h4{
+    font-size:23px;
+    font-weight:bold;
+    color: black;
+    line-height: 1.5;
+    margin-top: 12px;
+    margin-left: 40px;
+}
+.internship-info{
+     line-height: 1.8; 
+}
+ .internship-info p{
+    font-size: 18px;
+    padding-top: 15px;
+    color:black;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.8;
+    margin-top:10px;
+    margin-left: 40px;
+} 
+.internship-info h3{
+    color: black;
+    font-size: 20px;
+    font-weight:bold;
+    margin-top: 10px;
+    padding-top:0 ;
+    margin-bottom:-12px;
+    margin-left: 40px;
+    padding-bottom: 6px;
+}
+.project{
+    background : var(--second-bg-color);
+    text-align: center;
+}
+.project-box{
+    padding: 100px 15px;
+    height: 680px;
+}
+ .project .heading{
+    margin-bottom: 80px;
+    margin-top: 0.5px;
+    margin-top: 1px;
+    padding-top: 0px;
+    
+}
+.wrapper{
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+    margin-top:-10px;
+    margin-left: 100px;
+    margin-right: 140px;
+    position: relative;
+}
+ .project-item{
+    min-height: 400px; 
+    max-width: 350px;  
+    background: rgba(0, 0, 0, 0.7);
+    border: 3px solid  #00fff0;
+    border-radius: 32px;
+    margin: 0 32px; 
+    padding: 30px 60px; 
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
+    color: white;
+    transition: 0.4s ease-in-out ;
+    margin-top: -20px;
+    background-color:#00fff0 ;
+    border: 5px solid transparent;
+    border:3px solid  #20faec;
+    box-shadow: 0 0 10px #00fff0; 
+    margin-right: 20px;
+    margin-right: 30%;
+    align-items: center;
+    /* background-color: red; */
+    margin-left:30%;
+} 
+.project-item:hover{
+    border: 5px solid #00fff0;
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 0 50px  #3defe3; 
+    background-color: whitesmoke;
+    color: black;
+}
+.project-item h2{
+    font-size:37px;
+}
+.project-item p{
+    font-size: 20px;
+}
+.contactMe{
+    background-color: var(--bg-color);
+    height: 150px;
+}
+.contactMe h2{
+    color: white;
+    padding-top: 50px;
+    margin-left: 70px;
+    margin-left: 105px;
+    text-align: center;
+}
+.contactMe for{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem auto;
+    text-align: center;
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: var(--bg-color);
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: var(--main-color);
+}
+.footer .social a{
+    font-size: 25px;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: 0.3s ease-in-out ;
+
+}
+.footer .social a:hover{
+    transform: scale(1.2) translateY(-10px);
+    background-color: var(--main-color);
+    color: black;
+     box-shadow: 0 0 25px var(--main-color);
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+   color: white;
+   border-bottom: 3px solid transparent ;
+   transition: 0.3s ease-in-out;
+}
+.footer ul li a:hover{
+    border-bottom: 3px solid var(--main-color);
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
